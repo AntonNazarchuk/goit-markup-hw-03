@@ -30,6 +30,14 @@ body {
 /*------------------ header------------------- */
 .header {
   background-color: #ffffff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
 }
 
 .mainlogo {
@@ -39,6 +47,8 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-logo-color);
+  align-items: center;
+  padding-left: 215px;
 }
 
 .mainlogo-second {
@@ -57,6 +67,20 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--thirdlogo-color);
+}
+
+.header-list {
+  display: flex;
+  width: 300px;
+  height: 20px;
+  padding-left: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
 }
 
 .header-link {
@@ -91,7 +115,13 @@ body {
 /* index.html */
 .hero-section {
   background-color: var(--background-color);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
