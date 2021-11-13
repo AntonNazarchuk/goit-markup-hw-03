@@ -260,10 +260,10 @@ body {
   width: 1600px;
   background-color: #f5f4fa;
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 .section-c-main-title {
-  padding-top: 100px;
   padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
