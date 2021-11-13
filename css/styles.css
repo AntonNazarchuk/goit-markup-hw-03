@@ -16,6 +16,10 @@
   --background-color: #2f303a;
 }
 
+img {
+  display: block;
+}
+
 p,
 h1,
 h2,
@@ -49,15 +53,16 @@ body {
 }
 
 .container {
-  width: 1600;
+  width: 1170px;
   padding-left: 215px;
   padding-right: 215px;
-  margin: 0;
+  margin: 0px;
 }
 
 /*------------------------------------------------------------- header----------------------------------------------------------------- */
 
 .header {
+  width: 1600px;
   background-color: #ffffff;
 }
 
@@ -158,6 +163,7 @@ body {
 /* index.html */
 .hero-section {
   background-color: var(--background-color);
+  width: 1600px;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -195,11 +201,17 @@ body {
 }
 
 .section-a {
+  width: 1600px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .section-a-list {
+  display: flex;
+}
+
+.section-a-item:not(:last-child) {
+  padding-right: 30px;
 }
 
 .section-a-title {
@@ -212,27 +224,47 @@ body {
 }
 
 .section-a-text {
+  width: 270px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  padding-top: 10px;
+}
+
+.section-b {
+  width: 1600px;
+  padding-bottom: 100px;
 }
 
 .section-b-title {
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+
+.section-b-list {
+  display: flex;
+}
+
+.section-b-item:not(:last-child) {
+  padding-right: 30px;
 }
 
 .section-c {
+  width: 1600px;
   background-color: #f5f4fa;
+  padding-bottom: 100px;
 }
 
 .section-c-main-title {
+  padding-top: 100px;
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -241,7 +273,25 @@ body {
   color: var(--main-text-color);
 }
 
+.section-c-list {
+  display: flex;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.section-c-card {
+  width: 270px;
+  height: 370px;
+  background-color: var(--thirdlogo-color);
+}
+
+.section-c-item:not(:last-child) {
+  padding-right: 30px;
+}
+
 .section-c-title {
+  padding-top: 30px;
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
