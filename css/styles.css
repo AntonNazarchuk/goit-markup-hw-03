@@ -40,8 +40,10 @@ button {
 }
 
 body {
+  width: 1600px;
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
+  margin: auto;
 }
 
 .list {
