@@ -342,12 +342,33 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.main-secnion-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-right: -30px;
+  margin-bottom: -30px; */
+}
+
+.main-section-item {
+  flex-basis: calc((100% / 3)-30);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.main-section-card {
+  padding: 20px 24px 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
 .main-section-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
+  margin-bottom: 4px;
 }
 
 .main-section-text {
