@@ -49,7 +49,6 @@ button {
 }
 
 body {
-  width: 1600px;
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
   margin: auto;
@@ -196,15 +195,14 @@ body {
 
 .section-a {
   display: flex;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .section-a-list {
   display: flex;
   justify-content: center;
-  height: 101px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* height: 101px; */
 }
 
 .section-a-item:not(:last-child) {
@@ -213,7 +211,7 @@ body {
 
 .section-a-card {
   width: 270px;
-  height: 110px;
+  /* height: 110px; */
 }
 
 .section-a-title {
@@ -241,13 +239,16 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.section-b {
+  padding-bottom: 94px;
 }
 
 .section-b-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
 }
 
 .section-b-item:not(:last-child) {
@@ -257,6 +258,7 @@ body {
 .section-c {
   background-color: #f5f4fa;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .section-c-list {
@@ -280,8 +282,12 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.section-c-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .section-c-title {
@@ -291,7 +297,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  padding-top: 30px;
   padding-bottom: 10px;
 }
 
@@ -302,14 +307,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-  padding-bottom: 30px;
 }
 /* index.html */
 
 /*----------------- portfolio------------------ */
 .main-section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .button-section-item {
@@ -406,11 +410,11 @@ body {
 }
 
 .addres-list {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .address-item {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .addres-link-2 {
